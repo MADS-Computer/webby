@@ -43,6 +43,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
 
-      - name: Check dist contents
-        run: ls -lah dist && ls -lah dist/assets
-          
